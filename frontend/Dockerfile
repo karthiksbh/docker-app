@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:alpine
 
 WORKDIR /frontend
 
@@ -8,4 +8,4 @@ RUN npm install
 
 EXPOSE 3000
 
-CMD ["npm", "start"]
+# CMD ["npm", "start"]
